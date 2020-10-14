@@ -1,0 +1,222 @@
+.navbar {
+  background-color: #d7d9df;
+  text-align: right;
+}
+
+.navbar-toggler {
+  border-color: aqua;
+  color: blue;
+}
+
+.right{
+  text-align: right;
+}
+
+.icon{
+  margin-right: 20px;
+  font-size: 24px;
+  color: rgb(128, 247, 104);
+  flex-shrink: 0;
+  text-align: left;
+  width: 30px;
+}
+
+.pt_70{
+  padding-top: 70px;
+}
+
+
+.info{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.top_info{
+  font-size: 24px;
+  font-weight: 2;
+  margin-bottom: 20px;
+  margin-top: 0;
+  /* margin-left: 30px; */
+  text-align: left;
+}
+
+
+
+.personal{
+  /* margin-top: 20px; */
+}
+
+.name {
+  margin-left: 40px;
+}
+
+.n-p{
+  margin-top: 20px;
+}
+
+.k-p{
+  /* margin-right: 186px; */
+
+  /* justify-content: flex-start; */
+}
+
+.position{
+  /* margin-top: -10px; */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
+li {
+  /* text-align: center; */
+  list-style: none;
+  margin-bottom: 5px;
+  
+}
+
+.front_text {
+  /* 太さ調整 */
+  font-weight: 300;
+  font-size: 30px;
+  font-style: oblique;
+  color: black;
+  position: relative;
+  margin: 50px auto 70px;
+  position: relative;
+  letter-spacing: 10px;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.front_text::after{
+content: '';
+position: absolute;
+left: 50%;
+bottom: -15px;
+display: inline-block;
+width: 60px;
+height: 1px;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+background-color: black;
+/* border-radius: 2px; */
+}
+
+.back_text{
+  color: black;
+  font-size: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -30px;
+  z-index: 0;
+  opacity: 0.07;
+  font-weight: 700;
+  letter-spacing: 0px;
+  /* margin-bottom: 30px; */
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.indent{
+  /* padding: 30px 0 30px 30px; */
+  /* padding-left: 1em;
+  text-indent: -1em; */
+  padding-top: 30px;
+}
+
+
+.one{
+  display: flex;
+  justify-content: space-around;
+}
+
+.one_a{
+  /* margin-bottom: 30px; */
+
+}
+
+.left_space{
+  width: 40%;
+  text-align: left;
+  position: relative;
+}
+
+.profile_image {
+  width: 80%;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+
+.right_space{
+  /* position: relative; */
+  /* display: flex;
+  justify-content: space-around; */
+  /* align-items: center; */
+  width: 60%;
+}
+
+.profile_image{
+  width: 70%;
+  margin: 20px auto;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.sns {
+  /* justify-content: center; */
+  text-align: left;
+  /* position: absolute; */
+  margin-left: 105px;
+  top: 45%;
+  left: 25%;
+  /* width: 50%; */
+}
+
+.fa-twitter {
+  color:#1DA1F1;
+  margin-right: 10px;
+}
+
+.fa-github {
+  margin-right: 10px;
+
+}
+
+.fa-envelope {
+  margin-right: 15px;
+
+}
+
+.qiita {
+  margin-right: 20px;
+
+}
+
+.text_center{
+  /* margin-top: 15px; */
+}
+
+.red-bold{
+
+}
