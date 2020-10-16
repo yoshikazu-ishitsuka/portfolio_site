@@ -9,7 +9,53 @@
 }
 
 .navbar-collapse{
+  /* position: relative; */
   /* justify-content: right; */
+}
+
+.carousel-item{
+  /* position: relative; */
+
+}
+
+.carousel-inner{
+  position: relative;
+}
+
+.img-overlay{
+  position: absolute;
+  padding: 0;
+  /* top: calc(70% - 0.5rem); */
+  top: 2%;
+  left: 18%;
+  color: rgb(53, 248, 4);
+  text-align: center;
+  /* font-weight: bold; */
+  /* font-style: oblique; */
+  font-style: italic;
+  font-size: 70px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  /* font-stretch: ultra-expanded; */
+  /* width: 100%; */
+}
+
+.t-m{
+  /* position: relative; */
+}
+
+.top-message{
+
+}
+
+.t-m h2{
+  /* position: absolute; */
+  /* font-family: sans-serif; */
+  /* color: white; */
+  /* top: 0;
+  left: 0; */
+  /* text-align: center;
+  vertical-align: middle; */
 }
 
 /* * {
@@ -92,6 +138,16 @@
   text-align: left;
 }
 
+.info2{
+  font-weight: 300;
+  font-style: italic;
+  /* margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 30px; */
+  /* text-align: center; */
+
+}
+
 .top_info{
   font-size: 24px;
   font-weight: 2;
@@ -101,6 +157,15 @@
   text-align: left;
 }
 
+.top_info2{
+  font-size: 30px;
+  font-weight: 3;
+  margin-bottom: 20px;
+  margin-top: 0;
+  /* margin-left: 30px; */
+  /* text-align: left; */
+
+}
 
 
 .personal{
@@ -149,7 +214,7 @@ li {
   margin: 50px auto 70px;
   position: relative;
   letter-spacing: 10px;
-
+  text-align: center;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -197,6 +262,10 @@ background-color: black;
   padding-top: 30px;
 }
 
+.indent2{
+  /* margin-top: 150px; */
+  padding-top: 150px;
+}
 
 .one{
   display: flex;
@@ -244,12 +313,16 @@ background-color: black;
 
 .sns {
   /* justify-content: center; */
-  text-align: left;
-  /* position: absolute; */
-  margin-left: 105px;
-  top: 45%;
-  left: 25%;
-  /* width: 50%; */
+  /* text-align: left; */
+  position: absolute;
+  /* margin-left: 105px; */
+  /* top: 20%;
+  left: 25%; */
+  top: 300px;
+  left: 100px;
+  font-size: 20px;
+  /* padding-bottom: 1rem; */
+  /* position: fixed; */
 }
 
 .fa-twitter {
@@ -322,4 +395,8 @@ background-color: black;
 
 .center_space{
   /* width: 100%; */
+}
+
+.workaway{
+  height: 20%;
 }
