@@ -2,7 +2,7 @@
 
 <!-- ナビゲーションメニュー -->
     <nav class="navbar sticky-top   navbar-expand-lg  navbar-light">
-        <a class="navbar-brand text-dark" href="#"><span class="">石塚 良和　Portfolio Site</span></a>
+        <a class="navbar-brand text-dark" href="#"><span class="">石塚 良和　PORTFOLIO</span></a>
         <button class="navbar-toggler btn btn-info border-info" value="Input" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,9 +11,9 @@
             <div class="right open flex hover">
             <%# <ul class="hover_blue"> %>
                 <%# <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a> %>
-                <a class="nav-link text-dark" href="#section1">about me</a>
+                <a class="nav-link text-dark" href="#section1">History</a>
                 <a class="nav-link text-dark" href="#section2">Favorite</a>
-                <a class="nav-link text-dark" href="#contact">Contact</a>
+                <a class="nav-link text-dark" href="#section3">About me</a>
             </ul>
             </div>
             </div>
@@ -24,7 +24,7 @@
 </div> %>
 
 <!-- スライダー -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
         <%# <ol class="carousel-indicators"> %>
           <%# <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -32,15 +32,21 @@
         <%# </ol> %>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/assets/image2.jpg" class="d-block w-100"width="800" height="800" alt="...">
-          </div>
+            <%# <div class="top-message">ハロー %>
+              <div class="t-m">
+              <img src="/assets/image2.jpg" class="d-block w-100"width="800" height="800" alt="..." >
+              <div class="top-message img-overlay">Welcome to <br>my portfolio site</div>
+              
+              </div>
+              <%# <span class="top-message">ハロー
+            </span> %>
           <%# <div class="carousel-item">
             <img src="/assets/sample2.jpg" class="d-block w-100" width="800" height="500" alt="...">
           </div>
           <div class="carousel-item">
             <img src="/assets/sample1.jpg" class="d-block w-100" width="800" height="500" alt="...">
           </div> %>
-        </div>
+          </div>
         <%# <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -49,22 +55,24 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a> %>
+
+        </div>
     </div>
 
-<%# <% <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel"> %>
+<%# <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel"> %>
 
     <section class="text-center pt_70" id="section1">
-      <div class="front_text">about me<h2 class="back_text">about me</h2></div>
+      <div class="front_text">history<h2 class="back_text">history</h2></div>
       <div class="container one">
       <div class="one_a"></div>
 
         <div class="left_space">
           <img src="/assets/image0.jpg" class="profile_image" alt="石塚 良和（いしつか よしかず）">
-          <div class="sns">
-            <ul class="text_center">
+          <div class="text_center">
+            <ul class="sns">
               <li><i class="fab fa-twitter"></i><a href="https://twitter.com/it_begi_yos815" class="twitter" target="_blank">Twitter</a></li>
               <li><i class="fab fa-github"></i><a href="https://github.com/yoshikazu-ishitsuka" class="github" target="_blank">GitHub</a></li>
-              <li><img src="/assets/qiita.png" class="qiita" width="15" height="15"><a href="https://qiita.com/yosyosyoyoyo" class="Qiita" target="_blank">Qiita</a></li>
+              <li><img src="/assets/qiita.png" class="qiita" width="20" height="20"><a href="https://qiita.com/yosyosyoyoyo" class="Qiita" target="_blank">Qiita</a></li>
               <li><i class="fas fa-envelope"></i><a href="mailto:on83.ishitsuka.yoshikazu@gmail.com" class="email" target="_blank">E-mail</a></li>
             </ul>
           </div>
@@ -148,20 +156,23 @@
           </div>
       </div>
 
-      
+
+<div class="mt-2" id="section2">
+
+<div class="front_text pt-5">favorites<h2 class="back_text pt-5">favorites</h2></div>
 <!-- カード -->
   <%# <section class> %>
-<div class="center_space"></div>
-  <div class="py-4" id="section2">
+<%# <div class="center_space"></div> %>
     <div class="icon2">
       <i class="fas fa-child"></i>
       <%# <i class="fas fa-user-check"></i> %>
     </div>
+    <%# <div class="indent"></div> %>
         <div class="center">
-          <h2>Favorite</h2>
-          <p>These my favorites</p>
-        </div>
-        <div class="card-deck">
+          <h2 class="top_info2 mt-2">趣味・嗜好</h2>
+          <h2 class="info2 mb-5">these are my favorites</h2>
+        </div class="indent"></div>
+        <div class="card-deck indent">
             <div class="card">
               <img src="/assets/climbing.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -169,8 +180,8 @@
                 <p class="card-text">
                 基本的に全身の筋肉を使うので体全体のトレーニングになる。さらに柔軟性も鍛えられる。<br>
                 どうやれば登れるかを考えるため頭も使うので論理的な思考力も鍛えられる。<br>
-                登りきった時の達成感が気持ち良い。<br>
-                ハマると指の皮がボロボロになるので注意が必要。</p>
+                そしてなによりめちゃくちゃ楽しい。さらには難しい壁を登りきった時の達成感がとても気持ち良い。<br>
+                ハマると指の皮がボロボロになるので登った後はケアが必要なので注意。</p>
                 <p class="card-text"><small class="text-muted">Climbing</small></p>
               </div>
             </div>
@@ -205,7 +216,11 @@
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">映画</h5>
                 <p class="card-text">
-                
+                一番身近にあってお手軽に非日常感を体験したかったら映画が一番おすすめです。
+                今は動画配信サービスもとても充実しているので簡単にお家で色々な映画を楽しめます。
+                でも個人的なおすすめはやはり映画館です。あの巨大スクリーンと音響設備とあの静寂した空間で観ると映画を一番楽しめます。
+                特におすすめはIMAX,4DXなどの特別な設備を搭載したスクリーンで映画を観ることです。極上のエンターテイメントが待っています。
+
                 </p>
                 <p class="card-text"><small class="text-muted">Movie</small></p>
               </div>
@@ -214,7 +229,93 @@
     </div>
 
 
-<div class="container">
+<!-- カード --２ -->
+</div class="indent2"></div>
+  <div class="pt-4" id="section3">
+  <div class="front_text">about me<h2 class="back_text">about me</h2></div>
+</div class="indent"></div>
+    <div class="icon2 mt-4">
+      <i class="fas fa-child"></i>
+    </div>
+        <div class="center">
+          <h2 class="top_info2 mt-3">私はこういう人です</h2>
+          <h2 class="info2 pb-5">What kind of person</h2>
+    </div>
+        <div class="center">
+        <div class="card-deck indent">
+
+            <div class="card">
+              <img src="/assets/image8.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">姫路城</h5>
+                <p class="card-text">
+                
+                </p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/assets/image1.jpeg" class="card-img-top" 　height="100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold workaway"　height="100">workaway</h5>
+                <p class="card-text">
+                
+                </p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="/assets/image9.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Breakin'</h5>
+                <p class="card-text">
+                
+                </p>
+                <p class="card-text"><small class="text-muted">Breakin</small></p>
+              </div>
+            </div>
+            
+            <%# <div class="card">
+              <img src="/assets/dance.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">ブレイクダンス</h5>
+                <p class="card-text">
+                ブレイクダンス（またはブレイキン）は圧倒的な筋力や身体能力を駆使してダイナミックかつアクロバットな技を披露し観る者を魅了する圧巻のパフォーマンスが最大の持ち味。<br>
+                ダンスにはジャズ・ロック・ヒップホップ・社交ダンス等様々な種類があるが自分は圧倒的にブレイキンが好きです。<br><br>
+                個人的に特に好きなB-BOY（ダンサー）<br>【TAISUKE・ISSEI】
+                </p>
+                <p class="card-text"><small class="text-muted">Break Dance</small></p>
+              </div>
+            </div> %>
+
+            <%# <div class="card">
+              <img src="/assets/movie2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">映画</h5>
+                <p class="card-text">
+                
+                </p>
+                <p class="card-text"><small class="text-muted">Movie</small></p>
+              </div>
+            </div> %>
+        </div>
+    </div>
+
+
+
+<%# <div class="card" style="width: 18rem;">
+  <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> %>
+
+
+<div class="container indent2">
   <div class="jumbotron m-3">
     <h1 class="display-4">Hello, Bootstrap!</h1>
     <hr class="my-4">
