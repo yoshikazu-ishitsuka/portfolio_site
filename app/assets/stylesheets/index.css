@@ -353,6 +353,10 @@ background-color: black;
   color: red;
 }
 
+.card-h {
+  height: 300px;
+}
+
 .card-text{
   text-align: left;
 
@@ -399,4 +403,8 @@ background-color: black;
 
 .workaway{
   height: 20%;
+}
+
+.breakin{
+  height: 500px;
 }
