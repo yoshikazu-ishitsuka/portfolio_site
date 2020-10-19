@@ -283,6 +283,14 @@ background-color: black;
   position: relative;
 }
 
+.left_space2{
+  /* width: 60%; */
+  text-align: left;
+  position: relative;
+  margin-left: 5px;
+  justify-content: space-evenly;
+}
+
 .profile_image {
   width: 80%;
   border: 1px solid gray;
@@ -295,6 +303,13 @@ background-color: black;
   justify-content: space-around; */
   /* align-items: center; */
   width: 60%;
+}
+
+.right_space2{
+  display: flex;
+  /* justify-content: space-around; */
+  text-align: justify;
+  width: 40%;
 }
 
 .profile_image{
@@ -325,6 +340,12 @@ background-color: black;
   /* position: fixed; */
 }
 
+
+.under-none:hover{
+  text-decoration: none;
+}
+
+
 .fa-twitter {
   color:#1DA1F1;
   margin-right: 10px;
@@ -352,6 +373,11 @@ background-color: black;
 .red-bold{
   color: red;
 }
+
+.bold{
+  font-weight: bold;
+}
+
 
 .card-h {
   height: 300px;
@@ -395,6 +421,21 @@ background-color: black;
 
 .card-deck{
   text-align: center;
+}
+
+.c-body{
+  width: 30%;
+}
+
+.gyazo{
+  height: 300px;
+  width: 100%;
+}
+
+.card-img-top2{
+  /* width: 50%; */
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .center_space{
