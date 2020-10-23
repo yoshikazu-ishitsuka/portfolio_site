@@ -3,6 +3,7 @@
   /* text-align: right; */
 }
 
+
 .navbar-toggler {
   border-color: aqua;
   color: blue;
@@ -27,13 +28,13 @@
   padding: 0;
   /* top: calc(70% - 0.5rem); */
   top: 2%;
-  left: 18%;
+  left: 21%;
   color: rgb(53, 248, 4);
   text-align: center;
   /* font-weight: bold; */
   /* font-style: oblique; */
   font-style: italic;
-  font-size: 70px;
+  font-size: 90px;
   letter-spacing: 15px;
   text-transform: uppercase;
   /* font-stretch: ultra-expanded; */
@@ -44,8 +45,13 @@
   /* position: relative; */
 }
 
-.top-message{
 
+.top-message{
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Londrina Shadow', cursive;
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+  /* font-family: 'Kaushan Script', cursive; */
+  /* font-family: 'Bangers', cursive; */
 }
 
 .t-m h2{
@@ -64,7 +70,9 @@
 } */
 
 .nav-link{
+  padding: 0;
   margin-right: 40px;
+  display: block;
 }
 
 
@@ -95,6 +103,7 @@
 
 .hover :hover{
   background-color: #46c4ff;
+  display: block;
   /* color: white; */
   cursor: pointer;
   transition-duration: 1s;
@@ -102,6 +111,13 @@
   /* height: ; */
 }
 
+.hover a{
+  display: block;
+}
+
+.block{
+  display: block;
+}
 
 .right{
   /* width: 50%; */
@@ -173,6 +189,7 @@
 }
 
 .name {
+  font-style: italic;
   margin-left: 40px;
 }
 
@@ -267,6 +284,10 @@ background-color: black;
   padding-top: 150px;
 }
 
+.reverse-indent {
+  padding-top: -30px;
+}
+
 .one{
   display: flex;
   justify-content: space-around;
@@ -283,6 +304,14 @@ background-color: black;
   position: relative;
 }
 
+.left_space2{
+  /* width: 60%; */
+  text-align: left;
+  position: relative;
+  margin-left: 5px;
+  justify-content: space-evenly;
+}
+
 .profile_image {
   width: 80%;
   border: 1px solid gray;
@@ -295,6 +324,13 @@ background-color: black;
   justify-content: space-around; */
   /* align-items: center; */
   width: 60%;
+}
+
+.right_space2{
+  display: flex;
+  /* justify-content: space-around; */
+  text-align: justify;
+  width: 40%;
 }
 
 .profile_image{
@@ -325,6 +361,12 @@ background-color: black;
   /* position: fixed; */
 }
 
+
+.under-none:hover{
+  text-decoration: none;
+}
+
+
 .fa-twitter {
   color:#1DA1F1;
   margin-right: 10px;
@@ -352,6 +394,11 @@ background-color: black;
 .red-bold{
   color: red;
 }
+
+.bold{
+  font-weight: bold;
+}
+
 
 .card-h {
   height: 300px;
@@ -397,6 +444,21 @@ background-color: black;
   text-align: center;
 }
 
+.c-body{
+  width: 30%;
+}
+
+.gyazo{
+  height: 300px;
+  width: 100%;
+}
+
+.card-img-top2{
+  /* width: 50%; */
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
 .center_space{
   /* width: 100%; */
 }
@@ -407,4 +469,48 @@ background-color: black;
 
 .breakin{
   height: 500px;
+}
+
+.j-size{
+  /* margin: 0px;
+  padding: 0px; */
+  /* padding-bottom: 100px; */
+  margin-left: 220px;
+  justify-content: space-around;
+  height: 15%;
+  display: flex;
+  /* justify-content: center; */
+  /* height: 80%; */
+  /* text-align: center; */
+  align-items: center ;
+  width: 60%;
+
+}
+
+.mail{
+  height: 30%;
+  width: 180px;
+  margin-right: 50px;
+  align-items: center;
+  padding-top: 20px 0;
+  /* text-align: ; */
+  vertical-align: middle;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.center2{
+  text-align: center;
+  /* justify-content: center; */
+  vertical-align: middle;
+  /* margin-left: 100px; */
+  /* padding-left: 150px; */
+}
+
+.iken{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
