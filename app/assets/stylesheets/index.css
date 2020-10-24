@@ -395,6 +395,10 @@ background-color: black;
   color: red;
 }
 
+.blue {
+  color: blue;
+}
+
 .bold{
   font-weight: bold;
 }
