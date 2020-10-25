@@ -183,6 +183,9 @@
 
 }
 
+.italic{
+  font-style: italic;
+}
 
 .personal{
   /* margin-top: 20px; */
@@ -229,7 +232,7 @@ li {
   color: black;
   position: relative;
   margin: 50px auto 70px;
-  position: relative;
+  /* position: relative; */
   letter-spacing: 10px;
   text-align: center;
   /* display: flex;
@@ -393,6 +396,7 @@ background-color: black;
 
 .red-bold{
   color: red;
+
 }
 
 .blue {
