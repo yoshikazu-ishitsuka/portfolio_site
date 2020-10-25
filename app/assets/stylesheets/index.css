@@ -108,7 +108,7 @@
   cursor: pointer;
   transition-duration: 1s;
   /* padding: 10px; */
-  /* height: ; */
+  height: 35px;
 }
 
 .hover a{
@@ -258,7 +258,7 @@ background-color: black;
   left: 0;
   right: 0;
   text-align: center;
-  top: -30px;
+  top: -40px;
   z-index: 0;
   opacity: 0.07;
   font-weight: 700;
@@ -396,7 +396,7 @@ background-color: black;
 }
 
 .blue {
-  color: blue;
+  color: rgb(42, 137, 245);
 }
 
 .bold{
