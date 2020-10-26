@@ -1,24 +1,38 @@
-# README
+# Application name(アプリケーション名)
+### "portfolio_site"
+  
+# Application overview(アプリケーション概要)
+"portfolio_site"は私の自己紹介サイトです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# URL
+https://www.ishitsuka-y-portfolio.work/
 
-Things you may want to cover:
+# DEMO(デモ画面)
+ 
+[![Image from Gyazo](https://i.gyazo.com/4924832188cdc025fd2a045369cdb4df.jpg)](https://gyazo.com/4924832188cdc025fd2a045369cdb4df)
 
-* Ruby version
+# Features(特徴)
+ 
+- AWSのEC2にVPCを作成してデプロイしています
+- Elastic IPアドレスをRoute53を使用してドメイン名に変更
+- httpからhttpsへSSL化
+- S3に画像を保存
+ 
+# Various version information(各種バージョン情報)
+  
+- ruby 2.6.5
+- Rails 6.0.3
+- Bootstrap: 4.3.1
+- Font-Awesome(Free): 5.7.2
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
+# attention(注意点)
+ 
+- WebブラウザGoogle Chromeの最新版を利用してアクセスしてください。
+- サイトはまだ一部未完成の部分があり、スマートフォン等で見ると正しく表示されない箇所があります。ご了承ください。
+- サイト内の情報及び写真等の無断転載等はされないようにご協力のほどよろしく御願い致します。
+ 
+# Author(作成者)
+  
+* 作成者：石塚 良和
+* E-mail：on83.ishitsuka.yoshikazu@gmail.com
