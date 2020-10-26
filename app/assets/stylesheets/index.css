@@ -1,6 +1,5 @@
 .navbar {
   background-color: #d7d9df;
-  /* text-align: right; */
 }
 
 
@@ -9,15 +8,6 @@
   color: blue;
 }
 
-.navbar-collapse{
-  /* position: relative; */
-  /* justify-content: right; */
-}
-
-.carousel-item{
-  /* position: relative; */
-
-}
 
 .carousel-inner{
   position: relative;
@@ -26,7 +16,6 @@
 .img-overlay{
   position: absolute;
   padding: 0;
-  /* top: calc(70% - 0.5rem); */
   top: 2%;
   left: 21%;
   color: rgb(53, 248, 4);
@@ -41,11 +30,6 @@
   /* width: 100%; */
 }
 
-.t-m{
-  /* position: relative; */
-}
-
-
 .top-message{
   /* font-family: 'Anton', sans-serif; */
   font-family: 'Londrina Shadow', cursive;
@@ -54,20 +38,6 @@
   /* font-family: 'Bangers', cursive; */
 }
 
-.t-m h2{
-  /* position: absolute; */
-  /* font-family: sans-serif; */
-  /* color: white; */
-  /* top: 0;
-  left: 0; */
-  /* text-align: center;
-  vertical-align: middle; */
-}
-
-/* * {
-  margin: 0px;
-  padding: 0px;
-} */
 
 .nav-link{
   padding: 0;
@@ -90,15 +60,6 @@
 }
 
 
-/* .hover_blue li{
-  display: inline-block;
-  width: auto;
-  text-align: center;
-  font-size: 15px;
-  padding: 17px 20px;
-  transition-duration: 0.5s;
-  margin-bottom: 0;
-} */
 
 
 .hover :hover{
@@ -119,13 +80,6 @@
   display: block;
 }
 
-.right{
-  /* width: 50%; */
-  /* padding: 30px; */
-  /* display: flex;
-  justify-content: right; */
-  /* text-align: right; */
-}
 
 .center{
   text-align: center;
@@ -187,10 +141,6 @@
   font-style: italic;
 }
 
-.personal{
-  /* margin-top: 20px; */
-}
-
 .name {
   font-style: italic;
   margin-left: 40px;
@@ -200,15 +150,7 @@
   margin-top: 20px;
 }
 
-.k-p{
-  /* margin-right: 186px; */
 
-  /* justify-content: flex-start; */
-}
-
-.position{
-  /* margin-top: -10px; */
-}
 
 ul {
   padding: 0;
@@ -296,10 +238,6 @@ background-color: black;
   justify-content: space-around;
 }
 
-.one_a{
-  /* margin-bottom: 30px; */
-
-}
 
 .left_space{
   width: 40%;
@@ -415,6 +353,10 @@ background-color: black;
   color: rgb(42, 137, 245);
 }
 
+.blue-2{
+  color: blue;
+}
+
 .bold{
   font-weight: bold;
 }
@@ -431,18 +373,11 @@ background-color: black;
 
 .text-muted{
   /* vertical-align: bottom; */
-  text-align: end;
+  /* text-align: end; */
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   /* position: absolute; */
-}
-
-.end{
-  /* position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; */
 }
 
 .icon2{
@@ -456,9 +391,12 @@ background-color: black;
   /* width: 30px; */
 }
 
-.card-body{
-  /* position: relative; */
+.icon3{
+  font-size: 20px;
+  color: rgb(95, 136, 247);
+  margin-top: 7px;
 }
+
 
 .card-deck{
   text-align: center;
@@ -477,10 +415,6 @@ background-color: black;
   /* width: 50%; */
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.center_space{
-  /* width: 100%; */
 }
 
 .workaway{
@@ -545,4 +479,24 @@ background-color: black;
 
 .font-5{
   font-size: 1.25rem;
+}
+
+.card-down{
+  /* vertical-align: bottom; */
+  bottom: 1%;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+}
+
+.parent{
+  position: relative;
+}
+
+.child{
+  position: absolute;
+  /* bottom: 5%; */
+  /* width: 100%; */
+  /* text-align: center; */
 }
