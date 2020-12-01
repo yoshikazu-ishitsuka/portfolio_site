@@ -1,5 +1,5 @@
 # Application name(アプリケーション名)
-### "portfolio_site"
+### portfolio_site
   
 # Application overview(アプリケーション概要)
 "portfolio_site"は私(石塚良和)の自己紹介サイトです。
@@ -17,7 +17,8 @@ https://www.ishitsuka-y-portfolio.work/
 - Elastic IPアドレスをRoute53を使用して独自ドメインに変更
 - AWS ACMでSSL証明書を発行し、SSL化
 - AWS S3に画像を保存
- 
+- ローカル環境でDockerの導入
+
 # Various version information(各種バージョン情報)
   
 - ruby 2.6.5
