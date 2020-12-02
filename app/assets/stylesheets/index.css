@@ -25,7 +25,7 @@
 }
 
 .top-message {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Londrina Shadow", cursive;
 }
 
 .nav-link {
@@ -33,11 +33,12 @@
   margin-right: 40px;
 }
 
-@media screen and (min-width:830px) {
-  #nav-drawer {}
+@media screen and (min-width: 830px) {
+  #nav-drawer {
+  }
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width: 830px) {
   .open {
     display: inline-flex;
   }
@@ -138,7 +139,7 @@ li {
 }
 
 .front_text::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: -15px;
@@ -239,7 +240,7 @@ li {
 }
 
 .fa-twitter {
-  color: #1DA1F1;
+  color: #1da1f1;
   margin-right: 10px;
 }
 
@@ -323,6 +324,11 @@ li {
 
 .gyazo {
   height: 300px;
+  width: 100%;
+}
+
+.gyazo2 {
+  height: 500px;
   width: 100%;
 }
 
