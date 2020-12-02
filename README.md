@@ -17,7 +17,7 @@ https://www.ishitsuka-y-portfolio.work/
 - Elastic IPアドレスをRoute53を使用して独自ドメインに変更
 - AWS ACMでSSL証明書を発行し、SSL化
 - AWS S3に画像を保存
-- ローカル環境でDockerの導入
+- ローカル環境でDocker・の導入
 
 # Various version information(各種バージョン情報)
   
