@@ -18,7 +18,7 @@
         <a href="#section1"><i class="far fa-address-book icon3"></i></a><a class="nav-link text-dark"
           href="#section1">History</a>
         <a href="#section2"><i class="far fa-address-book icon3"></i></a><a class="nav-link text-dark"
-          href="#section2">Product</a>
+          href="#section2">Products</a>
         <a href="#section3"><i class="far fa-address-book icon3"></i></a><a class="nav-link text-dark"
           href="#section3">Favorites</a>
         <a href="#section4"><i class="far fa-address-book icon3"></i></a><a class="nav-link text-dark"
@@ -154,13 +154,113 @@
 
 
 <section class="text-center indent" id="section2">
-  <div class="front_text pt-3">Product<h2 class="back_text pt-3">Product</h2>
+  <div class="front_text pt-3">Products<h2 class="back_text pt-3">Products</h2></div>
+  <div class="icon2"></div>
+
   </div>
-  <div class="icon2">
+  <h2 class="top_info2 mt-2 center">このサイトについて</h2>
+  <h2 class="top_info2 mb-5 red-bold center italic"><span class="italic">About my portfolio site</span></h2>
+
+
+  <div>
+  <div class="indent">
+    <div class="left_space2 flex indent">
+      <div class="card c-body">
+        <div class="embed-responsive">
+          <img class="gyazo" src="https://i.gyazo.com/deae03a88fb2fafcb54df1a4daaa205c.jpg" alt="Image from Gyazo" />
+        </div>
+
+
+        <div class="card-body center">
+          <h4 class="card-title indent red-bold font-4">ポートフォリオサイト<br>（このサイトです）</h4>
+            <div class="pb-2"></div>
+          <h5 class="mb-5"><a href="https://www.ishitsuka-y-portfolio.work/" class="under-none blue">
+          <span class="blue">https://www.ishitsuka-y-portfolio.work/</span></a></h5>
+          <a href="/" class="btn btn-primary">トップに戻ります</a>
+        </div>
+      </div>
+
+      <div class="right_space2">
+        <div class="icon2">
+          <i class="fas fa-edit"></i>
+        </div>
+        <div class="info">
+          <h3 class="top_info">アプリケーション情報</h3>
+          <ul>
+            <li class="bold">【開発環境】<br></li>
+            <li>・Ruby/Ruby on Rails/Bootstrap/<br>　Font-Awesome/MySQL/Github/AWS/Docker(ローカルのみ)<br></li>
+            <li class="bold">【開発期間と平均作業時間】<br></li>
+            <li>・開発期間：10/2~10/28 (27日間)<br></li>
+            <li>・1日あたりの平均作業時間：10時間<br></li>
+            <li>・合計：270時間程度<br></li>
+            <li class="bold">【Githubリポジトリ】<br></li>
+            <li class="blue"><a href="https://github.com/yoshikazu-ishitsuka/portfolio_site" class="under-none blue"><span
+                  class="blue">https://github.com/yoshikazu-ishitsuka/portfolio_site</span></a><br></li>
+            <li class="bold">【AWSについて】</li>
+            <li>・EC2/RDS/VPCを用いたRails本番環境の構築</li>
+            <li>・Elastic IPアドレスをRoute53を使用して独自ドメインに変更</li>
+            <li>・ACMでSSL証明書を発行し、SSL化</li>
+            <li>・S3に画像を保存</li>
+            <li>・webサーバーにNginxを使用</li>
+            <li>・アプリケーションサーバーにUnicornを使用</li>
+            <li class="bold">【Dockerについて】</li>
+            <li>・開発環境（ローカル環境）にDocker/Docker-composeを導入</li>
+            <li>・Dockerfile及び、docker-compose.ymlの作成</li>
+            <li>・学習のための参考教材<br>「米国AI開発者がゼロから教えるDocker講座」（Udemy）</li>
+          </ul>
+        </div>
+      </div>
   </div>
-  <h2 class="top_info2 mt-2 center">TECH CAMPでの卒業制作物</h2>
+
+  <div>
+  <h2 class="top_info2 mt-2 center indent2">Docker導入の参考画像</h2>
+  </div>
+  <div class="card-deck indent">
+
+  <div class="card">
+    <img src="https://i.gyazo.com/1cb37913fb144d29e15f0fedc5d13a54.png" class="card-img-top"
+      alt="...">
+    <div class="card-body">
+      <h5 class="card-title font-weight-bold font-5">Dockerfile.dev</h5>
+      <p class="card-text">
+        1. 現状では開発環境のみということなので分かりやすいようにDockerfile.devと記載。<br><br>
+        2. 初めはmariadb-clientの箇所をmysql-clientとしていたがエラーが出た。<br>調べた所現状はmysql-clientはmariadb-clientに統合されているとのことでした。<br><br>
+        3. WORKDIRの後の/appディレクトリはこの時点でもし作られていない場合は自動で生成をしてくれることを学習した。<br>RUNのレイヤーを出来るだけ少なくするのがDockerのベストプラクティスということなので省略しました。<br>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.gyazo.com/3c3e27a575b179ed782b7c27219cecca.png" class="card-img-top"
+      alt="...">
+    <div class="card-body">
+      <h5 class="card-title font-weight-bold font-5">docker-compose.yml</h5>
+      <p class="card-text">
+      1. Railsの方を「web」MySQLの方を「db」として2つのservicesを設定しました。<br><br>
+      2. 本来は当サイトではDBは現状必要は無いのですが、AWSデプロイ時にRDSを使用したかった為DBを作成していました。<br>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.gyazo.com/4999d61e529a0c694954c324f8b895fb.png" class="card-img-top"
+      alt="...">
+    <div class="card-body">
+      <h5 class="card-title font-weight-bold font-5">Dockerコンテナの起動確認画像<br><br></h5>
+      <p class="card-text"><span class="bold d-flex justify-content-center">「コンテナの起動順序」</span><br>
+        1. docker-compose build<br><br>
+        2. docker-compose run --rm web bundle exec rails db:create db:migrate db:seed<br><br>
+        3. docker-compose up -d(detachedモードで起動)<br><br>
+        4. 画像からコンテナが無事に起動しているのが分かると思います。
+      </p>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div>
+  <h2 class="top_info2 mt-2 center indent2">TECH CAMPでの卒業制作物</h2>
   <h2 class="top_info2 mb-5 red-bold center italic"><span class="italic">This is my graduation work</span></h2>
   </div>
+
   <div class="indent">
     <div class="left_space2 flex indent">
       <div class="card c-body">
@@ -208,6 +308,56 @@
                   class="blue">https://github.com/yoshikazu-ishitsuka/furima-29350/wiki</span></a></li>
           </ul>
         </div>
+      </div>
+    </div>
+  <div>
+
+
+  <div>
+  <h2 class="top_info2 mt-2 center indent2">その他制作物</h2>
+  </div>
+
+  <div class="indent">
+    <div class="left_space2 flex indent">
+      <div class="card c-body">
+        <div class="embed-responsive">
+          <img class="gyazo" src="https://i.gyazo.com/8105bb46cd54605da3e77d5aa4b0eb07.gif" alt="Image from Gyazo" />
+        </div>
+
+        <div class="card-body center">
+          <h4 class="card-title indent red-bold font-4">ゲームの実行画面動画</h4>
+            <div class="pb-2"></div>
+          </p>
+        </div>
+      </div>
+
+      <div class="right_space2">
+        <div class="icon2">
+          <i class="fas fa-edit"></i>
+        </div>
+        <div class="info">
+          <h3 class="top_info">Number Game</h3>
+          <ul>
+            <li class="bold">【開発環境】<br></li>
+            <li>・Ruby<br></li>
+            <li class="bold">【ソースコード】<br></li>
+            <li>・詳細はGitHubのREADMEに記載してあります。</li>
+            <li class="blue"><a href="https://github.com/yoshikazu-ishitsuka/NumberGame" class="under-none blue">
+            <span class="blue">https://github.com/yoshikazu-ishitsuka/NumberGame</span></a></li>
+            <li class="bold">【遊び方】<br></li>
+            <li>1. ターミナルで実行。アプリのディレクトリ上でruby number_game.rbを実行</li>
+            <li>2. 画面のメッセージに従い、手札の設定と相手の手札に対するコールを選択</li>            
+            <li class="bold">【インストール方法】<br></li>
+            <li>$ git clone https://github.com/yoshikazu-ishitsuka/NumberGame.git</li>
+            <li>$ cd NumberGame</li>
+            <li>$ ruby number_game.rb</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+
 </section>
 </div>
 </div>
@@ -365,7 +515,7 @@
 </div>
 
 
-<%# !-- jumbotron -- %>
+<% # !-- jumbotron -- %>
 <div class="indent2"></div>
 <div class="iken bold">・ご意見等がございましたら以下のフォームからメールをお送りください。</div>
 <div class="container center2" id="jumbotron">
