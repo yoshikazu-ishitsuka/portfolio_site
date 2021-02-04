@@ -7,9 +7,9 @@
 # URL
 https://www.ishitsuka-y-portfolio.work/
 
-# DEMO(トップ画面)
+# DEMO(デモ画面)
  
-[![Image from Gyazo](https://i.gyazo.com/4924832188cdc025fd2a045369cdb4df.jpg)](https://gyazo.com/4924832188cdc025fd2a045369cdb4df)
+[![Image from Gyazo](https://i.gyazo.com/1c18de543e528f148dc0661105973b90.gif)](https://gyazo.com/1c18de543e528f148dc0661105973b90)
 
 # Features(特徴)
  
