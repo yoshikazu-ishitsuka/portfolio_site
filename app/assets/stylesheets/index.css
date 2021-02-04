@@ -48,6 +48,7 @@
   background-color: #46c4ff;
   display: block;
   cursor: pointer;
+  opacity: 0.5;
   transition-duration: 1s;
 }
 
