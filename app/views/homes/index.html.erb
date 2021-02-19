@@ -119,7 +119,7 @@
 
             <div class="indent"></div>
             <li><span class="bold">【主な業務】</span><br></li>
-            <li>・自動連続プレス機械操作</li>
+            <li>・会社の主力機械である自動プレス機械のオペレーターを担当</li>
             <li class="bold indent">【成果・ポイント】<br></li>
             <li>・2019年11月頃にプレス機械稼働率を数値化した所1ヶ月「29％」だった所その後無駄な時間を削る事によって約3ヶ月後に稼働率「35％」を達成。<br>
             <li>・毎週医療用マスクを30000個以上製造するノルマがあり、他の製品の納期等が重なり製造数が厳しくなった。<br>
@@ -175,11 +175,11 @@
   <div class="front_text pt-3">Products<h2 class="back_text pt-3">Products</h2></div>
   <div class="icon2"></div>
 
+
+<%############### このサイトについて ####################%>
   </div>
   <h2 class="top_info2 mt-2 center">このサイトについて</h2>
   <h2 class="top_info2 mb-5 red-bold center italic"><span class="italic">About my portfolio site</span></h2>
-
-
   <div>
   <div class="indent">
     <div class="left_space2 flex indent">
@@ -190,11 +190,13 @@
 
 
         <div class="card-body center">
-          <h4 class="card-title indent red-bold font-4">ポートフォリオサイト<br>（このサイトです）</h4>
+          <h4 class="card-title indent red-bold font-4">【ポートフォリオサイト】<br>（このサイトです）</h4>
             <div class="pb-2"></div>
-          <h5 class="mb-5"><a href="https://www.ishitsuka-y-portfolio.work/" class="under-none blue">
-          <span class="blue">https://www.ishitsuka-y-portfolio.work/</span></a></h5>
+          <h5 class="my-3"><a href="https://www.ishitsuka-y-portfolio.work/" class="under-none blue">
+          <%# <span class="blue">https://www.ishitsuka-y-portfolio.work/</span></a></h5> %>
           <a href="/" class="btn btn-primary">トップに戻ります</a>
+              <h4 class="mt-5 mb-4">【サイトのQRコード】</h4>
+              <a href="https://gyazo.com/f2034e8b8a6435c902255a57fd7afee8"><img src="https://i.gyazo.com/f2034e8b8a6435c902255a57fd7afee8.png" alt="Image from Gyazo" width="200"/></a>
         </div>
       </div>
 
@@ -205,15 +207,16 @@
         <div class="info">
           <h3 class="top_info">アプリケーション情報</h3>
           <ul>
+            <li class="bold">【アプリケーション名】<br></li>
+            <li>・Portfolio_site<br></li>
             <li class="bold">【開発環境】<br></li>
-            <li>・Ruby/Ruby on Rails/Bootstrap/<br>　Font-Awesome/MySQL/Github/AWS/Docker(ローカルのみ)<br></li>
+            <li>・Ruby / Ruby on Rails / Bootstrap /<br>　Font-Awesome / MySQL / Git / AWS / Docker(ローカルのみ)<br></li>
             <li class="bold">【開発期間と平均作業時間】<br></li>
-            <li>・開発期間：10/2~10/28 (27日間)<br></li>
-            <li>・1日あたりの平均作業時間：10時間<br></li>
+            <li>・開発期間：2020年【10/2~10/28】 (約27日間)<br></li>
+            <li>・1日あたりの平均作業時間：約10時間<br></li>
             <li>・合計：270時間程度<br></li>
             <li class="bold">【Githubリポジトリ】<br></li>
-            <li class="blue"><a href="https://github.com/yoshikazu-ishitsuka/portfolio_site" class="under-none blue"><span
-                  class="blue">https://github.com/yoshikazu-ishitsuka/portfolio_site</span></a><br></li>
+            <li class="blue"><%= link_to "https://github.com/yoshikazu-ishitsuka/portfolio_site", "https://github.com/yoshikazu-ishitsuka/portfolio_site", class: "under-none blue", target: :_blank, rel: "noopener noreferrer" %><br></li>
             <li class="bold">【AWSについて】</li>
             <li>・EC2/RDS/VPCを用いたRails本番環境の構築</li>
             <li>・Elastic IPアドレスをRoute53を使用して独自ドメインに変更</li>
@@ -226,8 +229,7 @@
             <li>・Dockerfile及び、docker-compose.ymlの作成</li>
             <li>・学習のための参考教材<br>「米国AI開発者がゼロから教えるDocker講座」（Udemy）</li>
             <li class="bold">【Qiitaに投稿した記事】<br></li>
-            <li class="blue"><a href="https://qiita.com/yosyosyoyoyo/items/407c22c0b1ba8e1dbded" class="under-none blue"><span
-                class="blue">・Docker勉強中に出たエラーと解決法の備忘録</span></a><br></li>
+            <li class="blue"><%= link_to "・Docker勉強中に出たエラーと解決法の備忘録", "https://qiita.com/yosyosyoyoyo/items/407c22c0b1ba8e1dbded", class: "under-none blue", target: :_blank, rel: "noopener noreferrer" %><br></li>
           </ul>
         </div>
       </div>
@@ -277,6 +279,74 @@
 </div>
 
 
+<%############### Railsでの制作物 ####################%>
+  <div>
+  <h2 class="top_info2 mt-2 center indent2">Railsでの制作物</h2>
+  <h2 class="top_info2 mb-5 red-bold center italic"><span class="italic">This is my Rails product </span></h2>
+  </div>
+
+  <div class="indent">
+    <div class="left_space2 flex indent">
+      <div class="card c-body">
+        <div class="embed-responsive">
+          <h4 class="card-title indent text-center mb-4 red-bold font-4">【デモ画面動画】</h4>
+          <img class="gyazo3" src="https://i.gyazo.com/5c3ca9071cddd90c34dbfb936fd2cfa3.gif" alt="Image from Gyazo" />
+        </div>
+
+        <div class="card-body center">
+          <h4 class="card-title indent red-bold">【サイトのURL】</h4>
+            <p class="card-text mt-4 mb-2 text-center">https://post-board-0217.herokuapp.com/
+              <div class="pb-2"></div>
+            </p>
+              <%= link_to "アプリのURLに飛びます", "https://post-board-0217.herokuapp.com/", class: "mb-4 btn btn-primary", target: :_blank, rel: "noopener noreferrer" %>
+              <h4 class="mt-5 mb-4">【サイトのQRコード】</h4>
+              <a href="https://gyazo.com/6df50cd2a3706f6b14dfcd8663db10cf"><img src="https://i.gyazo.com/6df50cd2a3706f6b14dfcd8663db10cf.png" alt="Image from Gyazo" width="200"/></a>
+          <%# <a href="https://post-board-0217.herokuapp.com/" class="btn btn-primary">アプリのURLに飛びます</a> %>
+        </div>
+      </div>
+
+      <div class="right_space2">
+        <div class="icon2">
+          <i class="fas fa-edit"></i>
+        </div>
+        <div class="info">
+          <h3 class="top_info">アプリケーション情報</h3>
+          <ul>
+            <li class="bold">【アプリケーション名】<br></li>
+            <li>・Post-Board【掲示板アプリ】<br></li>
+            <li class="bold">【アプリケーション概要】<br></li>
+            <li>・CRUD機能を使用した掲示板アプリです。スレッドごとにコメントを投稿したり、各スレッドにいいねを押したり出来ます。<br></li>
+            <li class="bold">【開発環境】<br></li>
+            <li>・Ruby / Ruby on Rails / Bundler / Bootstrap-sass /<br>　Font-Awesome-Sass / PostgreSQL / Git<br></li>
+            <li class="bold">【開発期間と平均作業時間】<br></li>
+            <li>・開発期間：2021年【1/18~2/18】 (約30日間)<br></li>
+            <li>・1日あたりの平均作業時間：2~3時間<br></li>
+            <li>・合計：約75時間程度<br></li>
+            <li class="bold">【導入した機能】<br></li>
+            <li>・CRUD機能<br></li>
+            <li>・ゲストログイン機能<br></li>
+            <li>・コメント機能<br></li>
+            <li>・いいね機能<br></li>
+            <li>・パンくずリスト機能<br></li>
+            <li>・ページネーション機能<br></li>
+            <li>・N+1問題の解決<br></li>
+            <li>・Rspecを使用して各モデルの単体テストを実装<br></li>
+            <li>・エラーメッセージの日本語化<br></li>
+            <li>・タスク管理ツールは 【Trello】を使用<br></li>
+            <li>・Githubのissue機能を使用し、機能ごとにブランチを切って開発を進めました。<br></li>
+            <li class="bold">【Github README】<br></li>
+            <li class="blue"><%= link_to "https://github.com/yoshikazu-ishitsuka/post-board/blob/master/README.md", "https://github.com/yoshikazu-ishitsuka/post-board/blob/master/README.md", class: "under-none blue", target: :_blank, rel: "noopener noreferrer" %><br></li>
+            <li class="bold">【作成者】<br></li>
+            <li>・石塚良和<br></li>
+            <li>・アプリケーションのUIの雛形作成者【壮さん】<%= link_to "Twitter:@sew_sou19", "https://twitter.com/sew_sou19", class: "under-none", target: :_blank, rel: "noopener noreferrer" %><br></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<%############### Rubyでの制作物 ####################%>
   <div>
   <h2 class="top_info2 mt-2 center indent2">Rubyでの制作物</h2>
   <h2 class="top_info2 mb-5 red-bold center italic"><span class="italic">This is my Ruby product </span></h2>
@@ -301,8 +371,10 @@
           <i class="fas fa-edit"></i>
         </div>
         <div class="info">
-          <h3 class="top_info">Number Game</h3>
+          <h3 class="top_info">アプリケーション情報</h3>
           <ul>
+            <li class="bold">【アプリケーション名】<br></li>
+            <li>・Number Game<br></li>          
             <li class="bold">【開発環境】<br></li>
             <li>・Ruby<br></li>
             <li class="bold">【ソースコード】<br></li>
@@ -322,7 +394,7 @@
     </div>
 </div>
 
-
+<%############### スクールでの制作物 ####################%>
 <div>
   <div>
   <h2 class="top_info2 mt-2 center indent2">スクールでの制作物</h2>
@@ -342,7 +414,8 @@
           <p class="card-text  mb-4">スクールでは画像のようなアプリを製作しました。<br>
             <div class="pb-2"></div>
           </p>
-          <a href="https://furima-29350.herokuapp.com/" class="btn btn-primary">アプリのURLに飛びます</a>
+          <%# <a href="https://furima-29350.herokuapp.com/" class="btn btn-primary">アプリのURLに飛びます</a> %>
+          <li class="blue"><%= link_to "アプリのURLに飛びます", "https://furima-29350.herokuapp.com/", class: "btn btn-primary", target: :_blank, rel: "noopener noreferrer" %><br></li>
         </div>
       </div>
 
@@ -368,12 +441,14 @@
             <li>・エラーメッセージの日本語対応を実装しました。</li>
             <li>・AWSのS3及びEC2を実装しました。</li>
             <li class="red-bold">・Rspecを使用したテストコードを結合テストコードまで実装しました。</li>
-            <li class="bold">【Github Wiki】<br></li>
-            <li>・実際に記述したテストコードが見れます</li>
-            <li class="blue"><a
+            <li class="bold">【GitHub Wiki】<br></li>
+            <li class="red-bold">・実際に記述したテストコードが見れます</li>
+            <li class="blue"><%= link_to "https://github.com/yoshikazu-ishitsuka/furima-29350/wiki", "https://github.com/yoshikazu-ishitsuka/furima-29350/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E7%99%BB%E9%8C%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89", class: "under-none blue", target: :_blank, rel: "noopener noreferrer" %><br></li>
+
+            <%# <li class="blue"><a
                 href="https://github.com/yoshikazu-ishitsuka/furima-29350/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E7%99%BB%E9%8C%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%86%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89"
                 class="under-none blue"><span
-                  class="blue">https://github.com/yoshikazu-ishitsuka/furima-29350/wiki</span></a></li>
+                  class="blue">https://github.com/yoshikazu-ishitsuka/furima-29350/wiki</span></a></li> %>
           </ul>
         </div>
       </div>
@@ -525,11 +600,8 @@
           自分は海外に留学や仕事等の経験はありませんが、逆に全くないからこそ経験者達の生の声に興味が湧いたので
           こちらのイベントに参加させて頂きました。<br>参加者の9割は大学生でしたので社会人の自分は少し気後れしましたが、結果的には視野が広がり色々な話しも聞けたのでとても良い経験が出来ました。<br>
           <li>【Workawayとは、1日4時間、週5日ボランティアとしてお手伝いする代わりに住む場所と3食を提供してもらえるサービスです。】</li>
-          <a href="https://workawayjapan.com/" class="btn">（日本版公式サイトに飛びます）<span
-              class="blue">https://workawayjapan.com/</span></a><br>
-          <a href="https://www.workaway.info/" class="btn">（海外版公式サイトに飛びます）<span
-              class="blue">https://www.workaway.info/</span></a><br>
-
+          <a href="https://workawayjapan.com/" class="btn">（日本版公式サイトに飛びます）<span class="blue">https://workawayjapan.com/</span></a><br>
+          <a href="https://www.workaway.info/" class="btn">（海外版公式サイトに飛びます）<span class="blue">https://www.workaway.info/</span></a><br>
         </p>
         <p class="card-text"><small class="text-muted"><span class="card-down child">workaway</span></small></p>
       </div>
@@ -556,5 +628,5 @@
 
 <!-- フッター -->
 <footer class="text-center bg-dark text-white">
-  <p class="py-3">Copyright - 石塚 良和　2020 All Rights Reserved.</p>
+  <p class="py-3">Copyright - 石塚 良和　2021 All Rights Reserved.</p>
 </footer>

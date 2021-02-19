@@ -333,6 +333,11 @@ li {
   width: 100%;
 }
 
+.gyazo3 {
+  height: 350px;
+  width: 100%;
+}
+
 .card-img-top2 {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
